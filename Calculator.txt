@@ -1,8 +1,11 @@
-def add(numbers):
+def add(*numbers):
 	output = 0
 	for num in numbers:
 		output+=num
 
+	return output
+
+def sub(*numbers):
 	return output
 
 
