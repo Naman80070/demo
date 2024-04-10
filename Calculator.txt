@@ -1,0 +1,14 @@
+def add(numbers):
+	output = 0
+	for num in numbers:
+		output+=num
+
+	return output
+
+
+Run Code Part:
+numbers = TAKE INPUT NUMBERS FROM FRONTEND
+choice = TAKE OPERATION TO BE PERFORMED FROM FRONTEND
+
+if choice == "add":
+	return add(numbers)
